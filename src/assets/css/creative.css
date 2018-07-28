@@ -1,0 +1,236 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+a {
+  color: #10879a;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #f05f40;
+}
+
+section {
+    padding: 8rem 0;
+}
+  
+.section-heading {
+    margin-top: 0;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #212529;
+    text-shadow: none;
+}
+  
+::selection {
+    color: #fff;
+    background: #212529;
+    text-shadow: none;
+}
+
+  /* ==========================================================================
+     5. Services section
+      ========================================================================== */
+      .item-boxes {
+        text-align: center;
+        padding: 0px 15px;
+        margin-bottom: 10px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+      }
+      
+      .item-boxes .icon {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        border: 1px solid #282e34;
+        display: inline-block;
+        border-radius: 30px;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .item-boxes .icon i {
+        font-size: 26px;
+        line-height: 60px;
+        color: #F05F40;
+      }
+      
+      .item-boxes h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #212529;
+      }
+      
+      .item-boxes:hover .icon {
+        background: #F05F40;
+      }
+      
+      .item-boxes:hover .icon i {
+        color: #fff;
+      }
+   
+      /* ==========================================================================
+      3. Hero Area
+      ========================================================================== */
+   #hero-area {
+    background: url("../img/hero-area.jpeg") fixed no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #hero-area .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+  }
+  
+  #hero-area .contents {
+    padding: 200px 0 130px;
+  }
+  
+  #hero-area .contents h1 {
+    color: red;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  #hero-area .contents p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  
+  #hero-area .contents .btn {
+    margin: 25px 25px 0px 0px;
+    text-transform: uppercase;
+  }
+  
+  #hero-area .banner_bottom_btn {
+    margin-top: 10px;
+  }
+  
+  #hero-area .banner_bottom_btn i {
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  #hero-area .banner_bottom_btn i:hover {
+    color: #282e34;
+  }
+
+  .section-header {
+    color: #282e34;
+    /*margin-bottom: 40px;*/
+    text-align: center;
+  }
+
+/*---------Partners section----*/
+#partners {
+  padding: 30px 0;
+  background: #fff;
+  overflow: hidden;
+  padding:50px;
+}
+
+#partners img {
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#partners img:hover {
+  opacity: 1;
+}
+
+.bg-primary {
+  background: #f05f40 !important;
+  margin:0px;
+  
+}
+
+.bg-dark {
+  /*background-color: #212529 !important;*/
+  background-attachment: fixed;
+  background-image: url(../img/bg-dark.jpg);
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*==============================================
+  Back-to-top
+  ==============================================*/
+  /* Back to top button */
+.back-to-top{
+  position:fixed;
+  float:right;
+  color:#F05F40;
+  background: linear-gradient(45deg, #fff, #F05F40);
+  padding:2px 20px 8px 20px;
+  border-radius:4px 4px 0 0;
+  right:15px;
+  bottom:0;
+  transition:none;
+  font-size:16px;
+}
+
+.back-to-top:focus{
+  color:#fff;
+  outline:none;
+}
+
+.back-to-top:hover{
+  background:#F05F40;
+  color:#fff;
+}
+
+#contact{
+  padding:86px;
+}
